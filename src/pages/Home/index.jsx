@@ -2,13 +2,11 @@ import Product from "../../components/Product";
 import Searchbar from "../../components/Searchbar";
 import useApi from "../../hooks/useApi";
 import * as S from './Home.styles';
-import useProductsStore from "../../store";
 
 
 export default function Home() {
     const url = 'https://api.noroff.dev/api/v1/online-shop';
     const {data, isLoading, isError} = useApi(url);
-    const {cart} = useProductsStore();
 
     return (
         <S.Container>

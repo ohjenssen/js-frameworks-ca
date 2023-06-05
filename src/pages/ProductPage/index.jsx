@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import useApi from '../../hooks/useApi';
 import Price from '../../components/Price';
 import useProductsStore from '../../store';
-import { Link } from 'react-router-dom';
 
 export default function ProductPage(){
     const {id} = useParams();
