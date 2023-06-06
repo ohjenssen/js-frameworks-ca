@@ -1,6 +1,6 @@
 import useProductsStore from "../../store";
 import CartProduct from "../../components/CartProducts.jsx";
-import styled from "styled-components";
+import * as S from './CheckoutPage.styled';
 import { Link } from "react-router-dom";
 
 export default function CheckoutPage(){
@@ -33,7 +33,7 @@ export default function CheckoutPage(){
                     discountedPrice={product.discountedPrice}
                 />
             ))}
-            <TotalContainer>
+            <S.TotalContainer>
                 <div>
                     <h3>Total</h3>
                     <h2>{totalPrice.toFixed(2)} kr</h2>
@@ -41,17 +41,7 @@ export default function CheckoutPage(){
                 <div>
                     <Link className="checkout" to='/checkoutsuccess' onClick={handleClearCart}>Checkout</Link>
                 </div>
-            </TotalContainer>
+            </S.TotalContainer>
         </div>
     )
 }
-
-const TotalContainer = styled.div`
-    border-top: 3px solid black;
-    
-    .checkout {
-        background-color: ${(props) => props.theme.color.lightmode.cta.coralOrange};
-        color: white;
-        padding: 10px 20px;
-    }
-`;
