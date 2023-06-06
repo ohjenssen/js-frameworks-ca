@@ -30,7 +30,7 @@ export default function ProductPage(){
                         <span className='rating'></span>
                         <span className='stars'></span>
                     </div>
-                    <button onClick={handleAddToCart}>Add to cart</button>
+                    <button className='cta-btn' onClick={handleAddToCart}>Add to cart</button>
                 </div>
             }
         </S.Container>
