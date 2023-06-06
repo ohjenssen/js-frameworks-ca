@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 250px;
-    height: 400px;
+    height: 430px;
     overflow: hidden;
     padding: 10px;
     border: 1px solid ${(props) => props.theme.color.lightmode.accent};
