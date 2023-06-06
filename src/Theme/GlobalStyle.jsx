@@ -6,10 +6,10 @@ const GlobalStyle = createGlobalStyle`
         --midnight-blue: #002B4F;
         --blush-pink: #FFB6C1;
         --sage-green: #A7BCA5;
-        --soft-gray: #D3D3D3;
         --coral-orange: #FF7F50;
         --dusty-rose: #996b6b;
-        background-color: var(--soft-gray);
+        background-color: var(--midnight-blue);
+        color: white;
     }
 
     body {

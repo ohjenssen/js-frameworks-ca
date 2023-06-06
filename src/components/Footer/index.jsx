@@ -4,12 +4,12 @@ import * as S from './Footer.styles';
 export default function Footer(){
     return (
         <S.Footer>
-            <ul>
+            <ul className='contact-info'>
                 <li>eCom</li>
                 <li>Email: johnDoe@eMail.com</li>
                 <li>Tlf: 00 00 00 00</li>
             </ul>
-            <ul>
+            <ul className='navigation'>
                 <li>
                     <Link to="/">Home</Link>
                 </li>

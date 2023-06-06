@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 const theme = {
     color: {
         lightmode: {
-            background: 'var(--soft-gray)',
+            background: 'var(--midnight-blue)',
             typography: {
                 midnightBlue: 'var(--midnight-blue)',
                 dustyRose: 'var(--dusty-rose)'

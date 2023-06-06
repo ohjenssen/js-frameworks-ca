@@ -4,6 +4,9 @@ export const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0px 20px;
         
     ul {
         list-style: none;
@@ -12,6 +15,10 @@ export const Nav = styled.nav`
 
         li {
             margin: 5px;
+        }
+
+        a {
+            font-weight: 900;
         }
     }
 `;

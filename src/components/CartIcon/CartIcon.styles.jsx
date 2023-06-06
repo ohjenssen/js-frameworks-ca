@@ -5,7 +5,7 @@ export const Container = styled.div`
     align-items: center;
     position: relative;
     cursor: pointer;
-    color: black;
+    color: ${(props) => props.theme.color.lightmode.typography.dustyRose};
 `;
 
 export const Overlay = styled.div`
