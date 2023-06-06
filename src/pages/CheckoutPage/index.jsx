@@ -23,25 +23,34 @@ export default function CheckoutPage(){
     return (
         <div>
             <h1>Checkoutpage</h1>
-            <button onClick={handleClearCart}>Clear cart</button>
-            {cart.map((product) => (
-                <CartProduct key={product.id}
-                    title={product.title} 
-                    imgUrl={product.imageUrl}
-                    description={product.description}
-                    price={product.price}
-                    discountedPrice={product.discountedPrice}
-                />
-            ))}
-            <S.TotalContainer>
+            {cart.length > 0 ? (
                 <div>
-                    <h3>Total</h3>
-                    <h2>{totalPrice.toFixed(2)} kr</h2>
+                    <button className='clear-cart' onClick={handleClearCart}>Clear cart</button>
+                    {cart.map((product) => (
+                        <CartProduct key={product.id}
+                            title={product.title} 
+                            imgUrl={product.imageUrl}
+                            description={product.description}
+                            price={product.price}
+                            discountedPrice={product.discountedPrice}
+                        />
+                    ))}
+                    <S.TotalContainer>
+                        <div>
+                            <h3>Total</h3>
+                            <h2>{totalPrice.toFixed(2)} kr</h2>
+                        </div>
+                        <div>
+                            <Link className="cta-btn" to='/checkoutsuccess' onClick={handleClearCart}>Checkout</Link>
+                        </div>
+                    </S.TotalContainer>
                 </div>
-                <div>
-                    <Link className="checkout" to='/checkoutsuccess' onClick={handleClearCart}>Checkout</Link>
-                </div>
-            </S.TotalContainer>
+            ) : 
+            <div>
+                <h3>Your cart is empty.</h3>
+                <Link to='/'><span>&#8592;</span>Go to Home</Link>
+            </div>
+            }
         </div>
     )
 }
