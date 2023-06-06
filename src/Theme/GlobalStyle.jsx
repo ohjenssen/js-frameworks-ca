@@ -30,6 +30,20 @@ const GlobalStyle = createGlobalStyle`
         font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
     }
+
+    .cta-btn {
+        background-color: var(--coral-orange);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+    }
+
+    .clear-cart {
+        background-color: red;
+        color: ${(props) => props.theme.color.lightmode.typography.midnightBlue};
+        padding: 10px 20px;
+        border: none;
+    }
 `;
 
 export default GlobalStyle;

@@ -18,7 +18,7 @@ export default function CartProduct({title, price, discountedPrice, description,
 }
 
 const Container = styled.div`
-    border-top: 1px solid black;
+    border-top: 1px solid white;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
