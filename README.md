@@ -1,5 +1,8 @@
 # JavaScript Frameworks Course Assignment
 
+<img width="800" alt="jsFrameworks_landingPage" src="https://github.com/ohjenssen/js-frameworks-ca/assets/95288100/f3353776-252e-4f60-8721-3ff5f37f181a">
+
+
 ## Description
 ### Goal
 To take the skills learned over the last two years and take on an extensive project where the finished product should reflect the candidate’s general development capabilities, in addition to visual and technical skills.
