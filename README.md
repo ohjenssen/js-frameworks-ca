@@ -1,9 +1,9 @@
-#JavaScript Frameworks Course Assignment
+# JavaScript Frameworks Course Assignment
 
-##Project description
+## Project description
 
 ```
-###Goal
+### Goal
 
 To take the skills learned over the last two years and take on an extensive project where the finished product should reflect the candidate’s general development capabilities, in addition to visual and technical skills.
 Brief
@@ -15,10 +15,10 @@ Requirements
 
     All API functionality is managed by an existing application. This project only covers the front-end application for the API.
 
-###API
+### API
 The API you are using for this project can be found under Holidaze in the Noroff API documentation.
 
-###User Stories
+### User Stories
 The client has specified the following requirements in the form of User Stories:
 
     A user may view a list of Venues
@@ -37,7 +37,7 @@ The client has specified the following requirements in the form of User Stories:
     A registered user may update their avatar
     A registered user may logout
 
-###Technical Restrictions
+### Technical Restrictions
 The company CTO has set the following technical restrictions:
 
     Must use an approved JavaScript Framework
@@ -46,7 +46,7 @@ The company CTO has set the following technical restrictions:
     Must use an approved Design Application
     Must use an approved Planning Application
 
-###Required Links
+### Required Links
 The Product Owner has requested links to the following:
 
     A Gantt chart for project timing
@@ -56,7 +56,7 @@ The Product Owner has requested links to the following:
     A repository link
     A hosted application demo link
 
-###Approved Resources
+### Approved Resources
 This list covers libraries and services that have been vetted by the company and approved for use.
 JavaScript Frameworks
 
