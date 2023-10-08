@@ -1,7 +1,6 @@
 # JavaScript Frameworks Course Assignment
 
 ## Project description
-
 ```
 ### Goal
 
@@ -15,7 +14,7 @@ Requirements
 
     All API functionality is managed by an existing application. This project only covers the front-end application for the API.
 
-**API**
+### API
 The API you are using for this project can be found under Holidaze in the Noroff API documentation.
 
 ### User Stories
