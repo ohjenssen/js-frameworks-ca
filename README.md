@@ -87,7 +87,7 @@ Planning Applications
 * React
   
 ## Getting Started
-###Installing
+### Installing
 1. Clone the repo
 ```
 git clone https://github.com/ohjenssen/js-frameworks-ca.git
